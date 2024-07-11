@@ -14,14 +14,14 @@ pipeline {
 
         stage('Run API Tests') {
             steps {
-                sh 'pytest API/tests --alluredir api-results'
+                sh 'pytest API/tests --alluredir allure-results'
             }
         }
 
         stage('Run UI Tests') {
             steps {
                 sh 'pytest UI/tests --executor ${EXECUTOR} --browser ${BROWSER}
-                --alluredir ui-results'
+                --alluredir allure-results'
             }
         }
 
