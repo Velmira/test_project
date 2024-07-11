@@ -12,6 +12,12 @@ pipeline {
             }
         }
 
+        stage('Install Dependencies') {
+            steps {
+                sh 'pip install -r requirements.txt'
+            }
+        }
+
         stage('Run API Tests') {
             steps {
                 sh 'pytest API/tests --alluredir allure-results'
@@ -34,8 +40,7 @@ pipeline {
                         properties: [],
                         reportBuildPolicy: 'ALWAYS',
                         results: [
-                            [path: 'api-results'],
-                            [path: 'ui-results']
+                            [path: 'allure-results']
                         ]
                     ])
                 }
