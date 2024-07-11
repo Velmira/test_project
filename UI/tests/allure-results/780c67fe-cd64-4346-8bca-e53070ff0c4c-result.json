@@ -1,1 +1,0 @@
-{"name": "Добавление товара в корзину", "status": "skipped", "description": "Добавление товара в корзину", "parameters": [{"name": "category", "value": "'marketplace/cars'"}], "start": 1720478751783, "stop": 1720478751783, "uuid": "2e7b398b-5610-46f3-8015-3b4079d547e4", "testCaseId": "95f0a28ef9c33fe71aec546c95fee2ec", "fullName": "tests.test_main.TestUI#test_add_item_to_card"}
