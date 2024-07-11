@@ -1,0 +1,8 @@
+API/.pytest_cache
+API/tests/.pytest_cache
+UI/.pytest_cache
+UI/tests/.pytest_cache
+.pytest_cache
+
+venv
+
