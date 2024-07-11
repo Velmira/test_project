@@ -26,7 +26,7 @@ pip install --upgrade pip
 Установить зависимости из файла requirements.txt:
 ```
 pip install -r requirements.txt
----
+```
 Запуск всех тестов:
 ```
 pytest .

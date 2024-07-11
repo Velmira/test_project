@@ -1,0 +1,4 @@
+INFO     test_login_logout:conftest.py:61 ===> Test test_login_logout started at 2024-07-11 13:17:08.230820
+INFO     test_login_logout:conftest.py:109 Browser chrome started
+INFO     test_login_logout:conftest.py:126 ===> Test test_login_logout finished at 2024-07-11 13:17:25.548451 
+ _________

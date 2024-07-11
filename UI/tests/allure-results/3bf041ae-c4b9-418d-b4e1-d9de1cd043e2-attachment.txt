@@ -1,0 +1,4 @@
+INFO     test_update_account:conftest.py:61 ===> Test test_update_account started at 2024-07-11 13:17:33.263398
+INFO     test_update_account:conftest.py:109 Browser chrome started
+INFO     test_update_account:conftest.py:126 ===> Test test_update_account finished at 2024-07-11 13:17:54.372522 
+ _________
